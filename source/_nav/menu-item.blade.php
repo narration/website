@@ -2,7 +2,7 @@
     @if ($url = is_string($item) ? $item : $item->url)
         {{-- Menu item with URL--}}
         <a href="{{ $page->url($url) }}"
-            class="{{ 'lvl' . $level }} {{ $page->isActiveParent($item) ? 'lvl' . $level . '-active' : '' }} {{ $page->isActive($url) ? 'active font-semibold text-blue' : '' }} nav-menu__item hover:text-blue"
+            class="{{ 'lvl' . $level }} {{ $page->isActiveParent($item) ? 'lvl' . $level . '-active' : '' }} {{ $page->isActive($url) ? 'active font-semibold text-indigo' : '' }} nav-menu__item hover:text-indigo"
         >
             {{ $label }}
         </a>

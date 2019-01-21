@@ -3,8 +3,8 @@
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'Docs Starter Template',
-    'siteDescription' => 'Beautiful docs powered by Jigsaw',
+    'siteName' => 'Narration Framework',
+    'siteDescription' => 'Build reliable and loosely coupled web apps',
 
     // Algolia DocSearch credentials
     'docsearchApiKey' => '',

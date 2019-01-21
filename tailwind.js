@@ -104,13 +104,13 @@ let colors = {
   'blue-lighter': '#bcdefa',
   'blue-lightest': '#eff8ff',
 
-  'indigo-darkest': '#191e38',
-  'indigo-darker': '#2f365f',
-  'indigo-dark': '#5661b3',
-  'indigo': '#6574cd',
-  'indigo-light': '#7886d7',
-  'indigo-lighter': '#b2b7ff',
-  'indigo-lightest': '#e6e8ff',
+  'indigo-darkest' : '#222B3C',
+  'indigo-darker' : '#445678',
+  'indigo-dark' : '#6681B4',
+  'indigo' : '#718FC8',
+  'indigo-light' : '#9CB1D9',
+  'indigo-lighter' : '#C6D2E9',
+  'indigo-lightest' : '#F1F4FA',
 
   'purple-darkest': '#21183c',
   'purple-darker': '#382b5f',
@@ -194,7 +194,7 @@ screens: {
 
 fonts: {
   'sans': [
-    'Nunito Sans',
+    'Raleway',
     'system-ui',
     'BlinkMacSystemFont',
     '-apple-system',
